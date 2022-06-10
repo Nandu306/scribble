@@ -1,1 +1,155 @@
-<strong> Great stories have great plots </strong>
+<body style="background-color:white;">
+  <div class="container">
+    <div class="row">
+
+
+      <section class="w-100 mt-5">
+        <div class="text-center mt-3 mb-3">
+
+          <div class="text-center" style="margin-left:20%; margin-right:20%;font-weight: bold;">
+            <h1 style="font-weight:bold; color: #2941AB"> Great stories have great plots. </h1>
+          </div>
+
+          <br>
+
+          <div class="text-center" style="margin-left:25%; margin-right:25%;">
+            <p> There is a method to the madness. We help writers plan, visualise and create compelling stories. </p>
+          </div>
+
+          <br>
+
+          <form action="/add_user" method="post">
+            <input type="email" placeholder="Your email address" class="form-box" name="[email_address]">
+            &nbsp;
+            <input type="submit" value="Join waitlist" class="home-button-1">
+          </form>
+
+
+          <div class="mt-1">
+            <small> Only £9.99/month. Get notified on launch. </small>
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+      <section class=" w-100 mt-5" style="margin-left:2%; margin-right:2%;">
+
+        <div class="d-flex">
+
+          <div class="d-flex flex-column text-center" style="padding: 5%;width:40%; border-radius:20px; background-color:#F9F8F1; height: 450px">
+            <%= image_tag '', class: "mx-auto", style:"width:125px" %>
+            <br>
+            <br>
+            <h4 class="mt-2" style="font-weight:bold;"> Science Brought To Life </h4>
+            <p class="mt-2"> Confused as to how what you learn is used in the real-world? We illustrate key concepts with stories and examples from around us.  </p>
+          </div>
+
+          <div style="overflow: hidden;width:2%"></div>
+
+          <div class="d-flex flex-column text-center" style="padding: 5%;width:60%; border-radius:20px; background-color:#B9D0FA;height: 450px">
+
+            <%= image_tag '', class: "mx-auto", style:"width:80%" %>
+            <br>
+            <br>
+            <h4 class="mt-2" style="font-weight:bold;"> So Much More Than Dry Facts </h4>
+            <p class="mt-2"> Science is so much more than theory. From maths to practical techniques to data analysis, we embed related topics to enable holistic skill development </p>
+
+          </div>
+
+        </div>
+
+        <br>
+
+        <div class="d-flex">
+
+          <div class="d-flex flex-column text-center" style="padding: 5%;width:60%; border-radius:20px; background-color:#9FD9D3; height: 450px;">
+            <%= image_tag '', class: "mx-auto", style:"width:125px" %>
+            <br>
+            <br>
+            <h4 class="mt-2" style="font-weight:bold;"> Remembering Made Easier </h4>
+            <p class="mt-2"> Science has stuff to remember. There’s no getting away from it. But we make it easier with flashcards, practise tests and games.  </p>
+          </div>
+
+          <div style="overflow: hidden;width:2%"></div>
+
+          <div class="d-flex flex-column text-center" style="padding: 5%;width:40%; border-radius:20px; background-color:#F9F8F1;height: 450px">
+
+            <%= image_tag '', class: "mx-auto", style:"width:125px" %>
+            <br>
+            <br>
+            <h4 class="mt-2" style="font-weight:bold;"> Learning Doesn't Feel Like Learning </h4>
+            <p class="mt-2"> Gamified environment takes the pain away from learning and keeps motivation levels high </p>
+
+          </div>
+
+        </div>
+
+        <br>
+
+        <div class="d-flex align-items-center" style="padding: 5%; border-radius:20px; background-color:#F9F8F1;">
+          <%= image_tag '', style:"width:125px"%>
+
+          <div style="overflow: hidden;width:5%"></div>
+
+          <div class="text-center">
+            <h4 style="font-weight:bold;"> Anywhere, Anytime </h4>
+            <p> Our web offering means that children can work at their own pace at a time and place that suits them best. </p>
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+
+      <section class="w-100 mt-5 mb-2">
+        <div class="text-center mt-3">
+
+          <div class="text-center" style="margin-left:20%; margin-right:20%;font-weight: bold;">
+            <h1 style="font-weight:bold;"> Get early access <br> and updates </h1>
+          </div>
+
+          <br>
+
+          <form action="/add_user" method="post">
+            <input type="email" placeholder="Your email address" class="form-box" name="[email_address]">
+            &nbsp;
+            <input type="submit" value="Join waitlist" class="home-button-1">
+          </form>
+
+          <div class="mt-1 mb-5">
+            <small > Only £9.99/month. Get notified on launch. </small>
+          </div>
+
+        </div>
+      </section>
+
+
+
+    </div>
+  </div>
+
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon align-items-baseline mb-2">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag '', style: 'width:60%' %>
+    <% end %>
+
+
+    <%= mail_to "enquiries@mojolearninglabs.com" do %>
+      <%= image_tag '', style: 'width:50%' %>
+    <% end %>
+
+  </div>
+
+</body>
+
+
+
+
+
+
+
