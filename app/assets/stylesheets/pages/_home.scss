@@ -1,2 +1,14 @@
 // Specific CSS for your home-page
 
+@media (max-width: 480px) {
+ .full-width {
+  width:100%;
+ }
+
+ .no-show {
+  display:none;
+ }
+}
+
+
+
